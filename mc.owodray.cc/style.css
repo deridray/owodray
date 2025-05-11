@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    background-color: #141416;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12;
+    color: #e7e7e7;
+}
+
+center {
+    justify-content: center;
+}
+
+small {
+    font-size: 8px;
+}
