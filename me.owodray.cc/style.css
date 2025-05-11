@@ -4,13 +4,38 @@ body {
     background-color: #141416;
     font-family: "JetBrains Mono", monospace;
     font-size: 12;
-    color: #e7e7e7;
+    color: #FFFFFF;
 }
 
+description {
+    font-size: 12px;
+    color: #1F2123;
+}
+
+a {
+    color: #5EDCF5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+ }
+
 center {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 small {
     font-size: 8px;
+    color: #1F2123;
+}
+
+button {
+    color: #FFFFFF;
+    border: #5EDCF5;
+    border-radius: 5px;
 }
